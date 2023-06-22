@@ -24,7 +24,6 @@ main{
     width: 90vw;
     height: calc(100vh - 140px);
     margin: 0 auto;
-    border-bottom: white dashed;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,14 +83,12 @@ a{
 }
 .center{
     width: 50%;
-    border: white dashed;
     height: 100%;
     flex-direction: row;
     justify-content: space-around;
 }
 .side{
     width: 25%;
-    border: white dashed;
     height: 100%;
     flex-direction: row;
 }
@@ -116,4 +113,17 @@ a{
 }
 .green{
     color: green;
+}
+.end-meet{
+    height: 100%;
+    width: 40%;
+    background-color: #4A4A4A;
+    justify-content: center;
+    align-items: center;
+}
+#red{
+    color: red;
+}
+.end{
+    justify-content: flex-end;
 }
