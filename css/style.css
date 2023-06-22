@@ -95,9 +95,7 @@ a{
 .flex{
     display: flex;
 }
-.col{
-    flex-direction: column;
-}
+
 .icon{
     font-size: 25px;
     
