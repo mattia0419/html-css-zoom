@@ -28,7 +28,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 .card{
     height: 100px;
