@@ -7,7 +7,7 @@ body{
 }
 header{
     width: 100vw;
-    height: 70px;
+    height: 50px;
     border-bottom: white dashed;
     text-align: right;
 }
@@ -20,4 +20,21 @@ header{
     margin-top: 10px;
     margin-right: 4px;
     font-size: 11px;
+}
+main{
+    width: 90vw;
+    height: calc(100vh - 140px);
+    margin: 0 auto;
+    border-bottom: white dashed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: white dashed;
+    height: 100px;
+    width: calc(100% / 7 );
+    margin-bottom: 10px;
+    margin-right: 5px;
 }
