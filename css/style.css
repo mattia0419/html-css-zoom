@@ -46,3 +46,74 @@ main{
     background-color: rgba(53,53,53, .7) ;
     color: white;
 }
+footer{
+    width: 100vw;
+    height: 70px;
+    background-color: #222222;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.align-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.small-container{
+    width: 15px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+}
+.container{
+     width: 83px;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+.relative{
+    position: relative;
+}
+.center{
+    width: 50%;
+    border: white dashed;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.side{
+    width: 25%;
+    border: white dashed;
+    height: 100%;
+    flex-direction: row;
+}
+.flex{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.icon{
+    font-size: 25px;
+    
+}
+.width-2{
+    width: 145px;
+}
+.width-3{
+    width: 100px;
+}
+.width-4{
+    width: 125px;
+}
+.green{
+    color: green;
+}
