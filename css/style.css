@@ -78,9 +78,7 @@ a{
      flex-direction: column;
 
 }
-.relative{
-    position: relative;
-}
+
 .center{
     width: 50%;
     height: 100%;
