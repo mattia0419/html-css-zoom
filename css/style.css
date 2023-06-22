@@ -8,7 +8,6 @@ body{
 header{
     width: 100vw;
     height: 50px;
-    border-bottom: white dashed;
     text-align: right;
 }
 .b-gray{
@@ -32,9 +31,18 @@ main{
     align-items: center;
 }
 .card{
-    border: white dashed;
     height: 100px;
     width: calc(100% / 7 );
     margin-bottom: 10px;
     margin-right: 5px;
+    background-image: url(../img/640px-IMG_2124_Everest.jpg);
+    background-size: cover;
+    position: relative;
+}
+.mute{
+    position: relative;
+    top: 77px;
+    font-size: 14px;
+    background-color: rgba(53,53,53, .7) ;
+    color: white;
 }
